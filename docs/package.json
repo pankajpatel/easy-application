@@ -1,0 +1,21 @@
+{
+  "name": "easy-application",
+  "version": "0.1.0",
+  "description": "Easy-Application viewer",
+  "main": "script.js",
+  "directories": {
+    "doc": "."
+  },
+  "scripts": {
+    "build": "webpack --production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "easy-application-parser": "github:nerddiffer/easy-application-parser",
+    "jquery": "^3.1.1"
+  }
+}
